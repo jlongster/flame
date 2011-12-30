@@ -15,9 +15,24 @@
           margin: auto;
           top: 0; left: 0; right: 0; bottom: 0;
       }
+
+      .instructions {
+          color: #999999;
+          text-align: center;
+      }
+      
+      .instructions span {
+          display: inline-block;
+          width: 100px;
+          text-align: left;
+      }
     </style>
   </head>
   <body>
+    <div class="instructions">
+      <span>arrow keys:</span><span>move around</span><br />
+      <span>x:</span><span>start fire</span>
+    </div>
     <canvas id="canvas"></canvas>
   </body>
 </html>
